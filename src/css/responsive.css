@@ -1,0 +1,48 @@
+@media(max-width: 425px){
+    .logo{
+        transform: scale(0.5);
+        padding: 0;
+        position: absolute;
+        top: 20px;
+        left: -50px;
+    }
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    
+    .image{
+        transform: scale(0.5);
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .info{
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        top: 410px;
+    }
+
+    .info h2{
+        font-size: 2.5rem;
+        padding: 30px;
+    }
+
+    .info p{
+        font-size: 1.6rem;
+        margin: 0;
+    }
+
+    .info .social{
+        margin: 30px auto;
+    }
+}
